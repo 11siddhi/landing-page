@@ -76,6 +76,7 @@ a {
     font-weight: bold;
 }
 
+/* Second part */
 .second-part {
     padding: 25px 150px;
     color: #192434;
@@ -113,3 +114,49 @@ a {
     width: 150px;
 }
 
+/* third part */
+.third-part {
+    padding: 100px 225px;
+    background-color: #E6E8EC;
+    color: #192434;
+    font-size: 20px;
+    font-style: italic;
+    /* text-align: center; */
+}
+
+.third-part .author {
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+}
+
+/* fourth part */
+.fourth-part {
+    padding: 70px 225px;
+    background-color: white;
+    color: #192434;
+}
+
+.footer {
+    padding: 20px;
+    color: white;
+    background-color: #3883F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer button {
+    background-color: #3883F6;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+}
+
+.footer .title {
+    font-size: larger;
+    font-weight: bold;
+}

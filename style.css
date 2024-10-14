@@ -39,7 +39,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #6D757E;
 }
 
 .about {
@@ -81,6 +81,7 @@ a {
     padding: 25px 150px;
     color: #192434;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .second-part .title {
@@ -118,15 +119,18 @@ a {
 .third-part {
     padding: 100px 225px;
     background-color: #E6E8EC;
-    color: #192434;
+    color: #6D757E;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     /* text-align: center; */
 }
 
 .third-part .author {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
+    color: #192434;
     text-align: end;
 }
 
@@ -138,7 +142,7 @@ a {
 }
 
 .footer {
-    padding: 20px;
+    padding: 50px;
     color: white;
     background-color: #3883F6;
     border-radius: 10px;

@@ -1,6 +1,6 @@
 /* Add this at the top of your CSS file */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 * {
     margin: 0;
@@ -24,13 +24,15 @@
 
 .logo {
     font-weight: 1000;
+    font-style: italic;
+    font-family: "Comfortaa", sans-serif;;
 }
 
 .links ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 li {
@@ -50,7 +52,7 @@ a {
 
 .about-image {
     max-width: 500px;
-    max-height: 200px;
+    max-height: 250px;
     background-color: #6D757E;
 }
 
@@ -64,6 +66,11 @@ a {
 .about .title {
     font-size: 50px;
     font-weight: 1000;
+}
+
+.about .content {
+    font-size: 15px;
+    color: #6D757E;
 }
 
 .about button {
@@ -141,7 +148,7 @@ a {
     color: #192434;
 }
 
-.footer {
+.fourth-container {
     padding: 50px;
     color: white;
     background-color: #3883F6;
@@ -150,7 +157,7 @@ a {
     justify-content: space-evenly;
 }
 
-.footer button {
+.fourth-container button {
     background-color: #3883F6;
     border: 2px white solid;
     border-radius: 5px;
@@ -160,7 +167,14 @@ a {
     align-self: center;
 }
 
-.footer .title {
+.fourth-container .title {
     font-size: larger;
     font-weight: bold;
+}
+
+.fifth-part {
+    padding: 20px;
+    background-color: #192434;
+    color: white;
+    text-align: center;
 }

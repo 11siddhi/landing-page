@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    gap: 15px;
 }
 
 .logo {
@@ -61,6 +62,8 @@ a {
     width: 500px;
     height: 250px;
     background-color: #6D757E;
+    line-height: 250px;
+    text-align: center;
 }
 
 .text {
@@ -120,6 +123,7 @@ a {
     width: 150px;
     height: 150px; 
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .img img {
@@ -168,6 +172,8 @@ a {
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .fourth-container button {
@@ -185,6 +191,7 @@ a {
     font-weight: bold;
 }
 
+/* Fifth part */
 .fifth-part {
     padding: 20px;
     background-color: #192434;

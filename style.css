@@ -46,19 +46,30 @@ a {
 
 .about {
     display: flex;
+    justify-content: space-evenly;
     gap: 30px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.about-image, .text {
+    width: 500px;
+    height: auto;
 }
 
 .about-image {
-    max-width: 500px;
-    max-height: 250px;
+    width: 500px;
+    height: 250px;
     background-color: #6D757E;
 }
 
+.text {
+    flex: 2;
+}
+
 .about-image img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     object-fit: cover; 
     object-position: center; 
 }
@@ -100,6 +111,8 @@ a {
 .info-images {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
     /* gap: 0px; */
 }
 
